@@ -7,12 +7,6 @@ header{
 }
 
 
-/* .header__left--img{
-    width: 190px;
-    height: 86px;
-} */
-
-
 nav a{
   padding: 0 15px  0 0;
   text-decoration: none;
@@ -20,7 +14,14 @@ nav a{
   color: grey;
   /* margin: 10px; */
 }
-
+.header__logo{
+  display:inline-block;
+  padding: 10px;
+  
+}
+/* .header__logo img{
+   
+} */
 
 nav a:hover{
   color: black;
