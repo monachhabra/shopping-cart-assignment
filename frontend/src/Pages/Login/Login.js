@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
+import Footer from '../../Components/Footer/Footer';
+import Header from '../../Components/Header/Header';
+
 import LoginForm from './LoginForm'
 
 const Login = () => {
@@ -19,7 +20,7 @@ const Login = () => {
         <>
           {/* <Header/> */}
           <LoginForm/>
-          <Footer/>  
+          {/* <Footer/>   */}
         </>
     )
 }

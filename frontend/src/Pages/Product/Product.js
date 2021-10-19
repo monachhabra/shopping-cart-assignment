@@ -6,7 +6,7 @@ import ProductContent from './ProductContent'
 const Products = () => {
     return (
         <div>
-          <Grid container direction="column" spacing={3}>
+          <Grid container direction="column" spacing={5}>
               <Grid item> This is header content </Grid>
               <Grid item container> 
               <Grid item xs={0} sm={2}/>

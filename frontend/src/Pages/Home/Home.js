@@ -6,10 +6,10 @@ import Header from "../../Components/Header/Header";
 const Home = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <ImageCarousel />
-      <Categories />
-      <Footer />
+      {/* <Categories /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

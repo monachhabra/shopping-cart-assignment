@@ -7,9 +7,10 @@ const Header = (props) => {
   const [loggedin, setLoggedin] = useState(false);
   return (
     <header>
-      
-          {/* <img  src="/static/images/logo.png" alt="logo" ></img> */}
       <div className="header__left">
+        <div className="header__left--img">
+          {/* <img src={`static/images/logo.png`} alt="logo"></img> */}
+        </div>
         <nav className="header__left--nav">
           <Link to="/">Home</Link>
           <Link to="/product">Products</Link>

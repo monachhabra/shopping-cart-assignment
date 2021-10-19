@@ -8,7 +8,7 @@ const Register = () => {
         <>
             {/* <Header/> */}
             <RegisterForm/>
-            <Footer/>
+            {/* <Footer/> */}
         </>
     )
 }
