@@ -1,0 +1,84 @@
+.carousel-section {
+    margin-top: 0.3rem;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+	}
+
+    .carousel-holder {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      transition: transform 1s ease-in-out;
+      z-index: 1;
+	}
+   
+
+    img {
+          width: 100vw;
+          min-width: 75vw;
+    }
+
+    .arrow {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+	}
+  
+    
+    .left__arrow{
+          position:absolute;
+          top: 50%;
+          font-size: 3rem;
+          left: 32px;
+          color: black;
+          z-index: 10;
+          cursor: pointer;
+         user-select: none;
+    }
+
+    .right__arrow{
+        position:absolute;
+        top: 50%;
+        right: 32px;
+        font-size: 3rem;
+        color: black;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .slide{ 
+        opacity: 0;
+        display: none;
+        transition: 1s ease-in-out;
+    }
+    .active {
+        opacity: 1;
+        display: block;
+        transition: 1s ease-in-out;
+    }
+
+    .carousel-dots {
+        text-align: center;
+        margin: 0.2rem 0;
+    }
+
+    .carousel-dots-slider {
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin: 0 0.5rem;
+    }
+    .dots-active {
+        background-color: rgba(0, 0, 0, 1);
+        transition: 0.2s ease-in-out;
+    }
